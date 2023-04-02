@@ -51,3 +51,6 @@ ShapeCalculator calculator = new ShapeCalculator();
 Triangle triangle = new Triangle { Base = 4, Height = 3 };
 double area = calculator.CalculateArea(triangle);
 As you can see, we were able to add support for a new Triangle shape without modifying the existing code for the Shape and ShapeCalculator classes, thanks to the OCP.
+
+Reference ;-
+https://medium.com/@CodewithChetan/solid-principles-838d615bfa1a
